@@ -1,6 +1,6 @@
 {
   "name": "Rodrigo Prazeres",
-  "photo": "/assets/images/photo/151668151.png",
+  "photo": "https://avatars.githubusercontent.com/u/151668151?v=4",
   "job": "Junior Developer",
   "location": "Santa Catarina - BR",
   "phone": "(48) 9 9166-8114",
@@ -63,10 +63,10 @@
     ]
   },
   "languages": [
-    "Português",
-    "Inglês"
+    "Português BR",
+    "Inglês (avançado)"
   ],
-  "portifolio": [
+  "portfolio": [
     {
       "name": "Simulador de Corrida",
       "url": "https://github.com/RodrigoPrazeres/RACE_SIM_NODEJS_CLASS",
@@ -83,11 +83,11 @@
       "github": true
     }
   ],
-  "professionalExperience": [
+"professionalExperience": [
     {
       "name": "Foto S.A.",
-      "period": "jan 2022 - june 2023",
-      "description": "Edição de imagem de produtos, garantir apresentação consistente e atraente para os sites das marcas, utilização de ferramentas avançadas, padronização de processos, gestão de tempo, eficiência organizacional"
+      "period": "jan 2022 - jun 2023",
+      "description": "Editor de imagens pleno"
     }
   ]
 }
