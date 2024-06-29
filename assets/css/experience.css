@@ -1,4 +1,5 @@
-.experience {
+/* Define an experience container */
+.experience{
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -6,16 +7,24 @@
     list-style: none;
 }
 
-.experience li {
+/* Define the list items in the experience container */
+.experience li{
     margin-bottom: 1rem;
 }
 
+/* Define the period class within list items */
 .experience li .period {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: .5rem;
 }
 
+
+/* Add an icon before the period class */
 .experience li .period::before {
     content: "";
     display: inline-block;
@@ -23,6 +32,6 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/calendar.svg');
+    background-image: url('/assets/images/icons/calendar.svg');
     margin-right: .5rem;
 }

@@ -1,9 +1,11 @@
-.skills {
+/* Define a skills container with a column layout */
+.skills{
     display: flex;
     flex-direction: column;
 }
 
-.skills .tools ul {
+/* Styles for the tools list within .skills */
+.skills .tools ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -14,13 +16,14 @@
     list-style: none;
 }
 
-.skills .tools ul li img {
-    max-width: 50px;
-    max-height: 50px;
-    margin: 0 .5rem;
+/* Styles for images within tools list items */
+.skills .tools ul li img{
+    max-width: 75px;
+    margin: 0.5rem;
 }
 
-.skills .personal ul {
+/* Styles for the personal list within .skills */
+.skills .personal ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -30,14 +33,16 @@
     padding: 0;
 }
 
-.skills .personal ul li {
+/* Styles for items within the personal list */
+.skills .personal ul li{
     margin-left: 2rem;
-    padding: .5rem
+    padding: .5rem;
 }
 
-@media only screen and (min-width: 768px) {
-    .skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+/* Media query for screens with a minimum width of 768px */
+@media only screen and (min-width: 768px){
+    .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     }
 }
